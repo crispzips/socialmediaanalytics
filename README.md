@@ -19,7 +19,9 @@ University of Oklahoma Libraries
 ### The Look and Feel
 When you open the NodeXL template, most everything you're comfortable with about Excel will be there waiting for you.
 Just to make sure we're on the same page, your screen should look like this:
-![NodeXL Screen Layout](netpres01.png)
+
+![NodeXL Screen Layout](images/netpres01.png)
+
 You'll notice some changes. This isn't a fresh Excel workbook, but has been prepopulated with everything you'll need to work NodeXL's magic.
 * The second row of the sheet is filled with labels for all of the ingredients of a network graph: vertex 1, vertex 2, color, width, style, opacity, visibility, label, label text color, label font size, (and an option to add your own columns).
   * Only the first two columns (vertices 1 & 2) are needed to create a network graph, the remaining columns could be considered stylistic extras -- but this is a graph -- so those stylist changes in form symbolically correspond to changes in content. They allow the reader to extract richer meaning from the connections. The width, color, and style (dotted, dashed, solid) of the edges, could convey the intensity, frequency, or probability of a connection between those vertices.
@@ -30,4 +32,27 @@ You'll notice some changes. This isn't a fresh Excel workbook, but has been prep
 * To the right of the worksheets, in a pane labled "Document Actions," is where you generate network graphs from the row/column data generated in/imported into the worksheet section. This is where you can apply different modeling algorithms to your network and visually sift through these algorithmically-generated models. The algorithms NodeXL includes are:
   * [Fruchterman-Reingold](https://en.wikipedia.org/wiki/Force-directed_graph_drawing)
   * [Harel-Koren Fast Multiscale](https://www.researchgate.net/figure/220875983_fig1_Figure-1-a-Harel-Koren-HK-fast-multi-scale-layout-of-a-clustered-network-of-Twitter)
-  * [Circle](
+  * Circle
+  * Spiral
+  * Horizontal Sine Wave
+  * Vertical Sine Wave
+  * Grid
+  * Polar
+  * Polar Absolute
+  * [Sugiyama](http://www.cs.usyd.edu.au/~shhong/fab.pdf)
+  * Random
+
+Here's a good overview of some of the different graphing algorithms (it's pretty self-explanatory which shape algorithms correspond to which examples below):
+
+![Graph Algorithm Example Images](netpres02.png)
+
+* NodeXL makes one more change to the basic Excel template.
+ * In the top row tabs ("File," "Home," "Insert," etc.) you will see a tab called "NodeXL Basic" (if you installed the free version)
+ * This tab contains everything that can be done with NodeXL:
+
+![NodeXL functions](netpres03.png)
+
+### Network Graph Introduction to NodeXL
+
+  
+  
