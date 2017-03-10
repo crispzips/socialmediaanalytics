@@ -20,7 +20,7 @@ University of Oklahoma Libraries
 When you open the NodeXL template, most everything you're comfortable with about Excel will be there waiting for you.
 Just to make sure we're on the same page, your screen should look like this:
 
-![NodeXL Screen Layout](/images/netpres01.png)
+![NodeXL Screen Layout](/images/netpres01.PNG)
 
 You'll notice some changes. This isn't a fresh Excel workbook, but has been prepopulated with everything you'll need to work NodeXL's magic.
 * The second row of the sheet is filled with labels for all of the ingredients of a network graph: vertex 1, vertex 2, color, width, style, opacity, visibility, label, label text color, label font size, (and an option to add your own columns).
@@ -50,7 +50,7 @@ Here's a good overview of some of the different graphing algorithms (it's pretty
  * In the top row tabs ("File," "Home," "Insert," etc.) you will see a tab called "NodeXL Basic" (if you installed the free version)
  * This tab contains everything that can be done with NodeXL:
 
-![NodeXL functions](/images/netpres03.png)
+![NodeXL functions](/images/netpres03.PNG)
 
 ### Network Graph Introduction to NodeXL
 
