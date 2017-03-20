@@ -1,4 +1,4 @@
-#Social Media Analytics with NodeXL
+# Social Media Analytics with NodeXL
 Below you will find a brief tutorial for retrieving, visualizing, and analyzing graph network data from twitter using the free NodeXL platform provided by the non-profit Social Media Research Foundation (SMRF)
 
 ## About
