@@ -1,6 +1,18 @@
 # Social Media Analytics with NodeXL
 Below you will find a brief tutorial for retrieving, visualizing, and analyzing graph network data from twitter using the free NodeXL platform provided by the non-profit Social Media Research Foundation (SMRF)
 
+## Table of Contents
+* [About](#about)
+* [Lingo](#lingo)
+* [Prep Work - Download and Installation](#prep-work)
+* [Dipping Your Toe In](#dipping-your-toe-in)
+  * [The Look and Feel](#the-look-and-feel)
+  * [Network Graph Introduction to NodeXL](#network-graph-introduction-to-nodexl)
+* [Getting Data](#getting-data)
+* [Rendering Graphs](#rendering-graphs)
+* [Analyzing Networks](#analyzing-networks)
+* [Further Reading](#further-reading)
+  
 ## About
 Last Updated Feburary 2017  
 Created by [Paul Vieth](http://paulkelleyvieth.org/)  
@@ -64,4 +76,15 @@ Opening that sample workbook automatically opens a new Excel window, creates a n
 You'll get something like this:
 ![NodeXL Functionality Graph](/images/netpres04.PNG)
 
+This is, in broad strokes, everything that NodeXL (the central hub of this graph) can do. As for the secondary nodes, those connected directly to the hub, this workshop will go through three of them in detail:
+* "Data" -- by importing data from twitter
+* "Graph" -- by generating graphs using different algorithms from the twitter data we collect
+* "Analysis" -- by grouping our nodes according to network relationships and having NodeXL gather metrics on our graph
 
+## Getting Data
+
+## Rendering Graphs
+
+## Analyzing Networks
+
+## Further Reading
