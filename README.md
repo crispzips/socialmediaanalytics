@@ -25,7 +25,7 @@ University of Oklahoma Libraries
 ## Prep Work
 ### [Download and install the NodeXL Microsoft Excel plugin](http://www.smrfoundation.org/nodexl/installation/)
 * NodeXL comes as a Microsoft Excel template. After you install, the program will present itself as an Excel workbook. Each time you intend to work with NodeXL, you will first open this workbook, so store it somewhere handy.
-* The Social Media Research Foundation (SMRF) provides a free version of NodeXL. This has limitations on functionality, but is perfected for familiarizing yourself with social media analytics. SMRF provides a PRO version, for more advanced usage with full functionality, and offers discounts for academic users.
+* The Social Media Research Foundation (SMRF) provides a free version of NodeXL. This has limitations on functionality, but is perfect for familiarizing yourself with social media analytics. SMRF provides a PRO version, for more advanced usage with full functionality, and offers discounts for academic users.
 
 ## Dipping Your Toe In
 ### The Look and Feel
@@ -74,6 +74,7 @@ Opening that sample workbook automatically opens a new Excel window, creates a n
 * On the right-hand pane labled "Document Actions", you will see a button in its top left corner called "Show Graph." As mentioned above, this creates a network graph from the information in the NodeXL workbook using one of various algorithms to be chosen from a drop down menu. The default algorithm is the Fruchterman-Reingold. Keep this algorithm, and generate the graph for the sample workbook.
 
 You'll get something like this:
+
 ![NodeXL Functionality Graph](/images/netpres04.PNG)
 
 This is, in broad strokes, everything that NodeXL (the central hub of this graph) can do. As for the secondary nodes, those connected directly to the hub, this workshop will go through three of them in detail:
