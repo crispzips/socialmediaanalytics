@@ -53,6 +53,14 @@ Here's a good overview of some of the different graphing algorithms (it's pretty
 ![NodeXL functions](/images/netpres03.PNG)
 
 ### Network Graph Introduction to NodeXL
+Another neat, and multimodal, way to learn about NodeXL's functionality is to let NodeXL tell you using NodeXL's functionality. That sounds meaningless, but will become clear.
+  
+* In the NodeXL tab (between "View" and "Design") --> Help section --> "About" dropdown menu, you will see an option called "Sample Workbook"
 
-  
-  
+Opening that sample workbook automatically opens a new Excel window, creates a new NodeXL template workbook, and populates that workbook with sample (but not random, lorem ipsum-esque) vertices and nodes, and their properties.
+
+* On the right-hand pane labled "Document Actions", you will see a button in its top left corner called "Show Graph." As mentioned above, this creates a network graph from the information in the NodeXL workbook using one of various algorithms to be chosen from a drop down menu. The default algorithm is the Fruchterman-Reingold. Keep this algorithm, and generate the graph for the sample workbook.
+
+You'll get something like this:
+
+
