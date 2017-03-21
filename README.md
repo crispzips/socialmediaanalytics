@@ -141,9 +141,13 @@ The edges worksheet will also become populated with:
 * latitude/longitude 
 * other stuff
 
-With this degree of detail in the metadata, there's little limit to what you can do -- only [what Twitter will and will not allow through its Rest API](https://dev.twitter.com/rest/public)
+With this degree of detail in the metadata, there's little limit to what you can do with NodeXL-- only [what Twitter will and will not allow through its Rest API](https://dev.twitter.com/rest/public)
 
+### To Generate Network Graphs in NodeXL
+* click "Show Graph" in the top-left corner of the "Document Actions" pane
+* voila!
 
+Play around with this a litte bit. There's lots to be done. The default graphing algorithm is the Fructerman-Reingold. You can change this from the drop down menu to the 
 
 
 ## Analyzing Networks
