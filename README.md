@@ -84,6 +84,21 @@ This is, in broad strokes, everything that NodeXL (the central hub of this graph
 
 ## Getting Data
 
+Under the NodeXL tab --> "Data" section --> "Import" dropdown menu, you will see a list of all the potential data sources.
+
+![NodeXL Import Options](/images/netpres05.PNG)
+
+If your data has already been collected, you can import it into NodeXL as a Pajek, GraphML, or UCINET Full Matrix DL file. We're not going to get into that today, and that would ignore some of NodeXL's best functionality anyway.
+
+Notice, from the bottom half of the "Import" dropdown, that data can also be taken from
+* email networks
+* facebook
+* twitter
+* flickr
+* youtube
+
+Well, at least in theory. To import data from most of these sources you need to have NodeXL Pro installed. But NodeXL basic does allow you to import "From Twitter Search Network," meaning you can pull up tweets containing keywords or hashtags, and can control the parameters of that data cull.
+
 ## Rendering Graphs
 
 ## Analyzing Networks
