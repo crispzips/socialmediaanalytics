@@ -97,7 +97,9 @@ Notice, from the bottom half of the "Import" dropdown, that data can also be tak
 * flickr
 * youtube
 
-Well, at least in theory. To import data from most of these sources you need to have NodeXL Pro installed. But NodeXL basic does allow you to import "From Twitter Search Network," meaning you can pull up tweets containing keywords or hashtags, and can control the parameters of that data cull.
+Well, at least in theory. To import data from most of these sources you need to have NodeXL Pro installed. But NodeXL basic does allow you to import "From Twitter Search Network," meaning you can pull up tweets containing keywords or hashtags, and can control the parameters of that data cull. Like this: 
+
+
 
 ## Rendering Graphs
 
