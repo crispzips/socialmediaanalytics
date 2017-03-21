@@ -101,9 +101,50 @@ Well, at least in theory. To import data from most of these sources you need to 
 
 ![NodeXL Import from Twitter Search Network](/images/netpres06.PNG)
 
+This window gives us several options.
+* First is the search bar. It accepts hastag searches as well as plain search terms and can be augmented with standard search operator protocol. Here are some ways to complicate your search criteria:
 
+![NodeXL Twitter Advanced Search Operators](/images/netpres09.PNG)
+
+* Next you'll notice that you can import either a "Basic network" or a "Basic network plus friends (very slow!)." They aren't lying when they give speed suggestions, so keep that in mind. Here is the difference between those two searches in terms of graphical relationships:
+
+![NodeXL Basic and Friends Networks](/images/netpres10.PNG)
+
+Though they take longer to generate, showing friendship networks can be very informative, and can facilitate the creation of more snugly clustered groupings (something we'll get to in the next section)
+
+* The next thing of note in this data importation dialogue box is that you have to have a twitter account, and that this account needs to give NodeXL certain permissions. NodeXL needs to use your twitter account as a kind of conduit to twitter's databases. This is part of the protocol twitter has instituted through its API (application programming interface) -- it is through twitter's API that NodeXL is able to extract the tweet metadata. If you have not given NodeXL these permissions, select this button, follow the prompts in your browser, then come back to NodeXL to enter the access code twitter provides.
+
+![NodeXL Twitter Authorization](/images/netpres08.PNG)
+
+* Also, in the bottom right-hand corner of this dialogue box, you can select the number of tweets to extract (the more, the slower, seemingly logarithmically) and whether you would like to expand URLs in tweets (also slower).
 
 ## Rendering Graphs
+
+Once you enter your search terms, select your parameters, and twiddle your thumbs while NodeXL communicates with twitter through its API, your NodeXL worksheet will become populated with vertex identities (of twitter users) and miscellaneous metadata:
+* the user's profile image
+* tooltip text (what appears when you hover over the vertex in the graph generated from this worksheet)
+* how many accounts they follow
+* how many accounts follow them
+* their tweet total
+* their "favorites" count
+* their time zone offset (in seconds), account description, location, personal website, time zone title, and the date they joined twitter
+* also, whether their tweet contained your specified search term
+
+The edges worksheet will also become populated with:
+* the two vertices connected by that edge
+* the nature of the relationship described by that edge (mention, tweet, reply)
+* the relationship date/time
+* the text of the tweet
+* any URLs linked in the tweet
+* any hashtags used in the tweet
+* the tweet date/time
+* latitude/longitude 
+* other stuff
+
+With this degree of detail in the metadata, there's little limit to what you can do -- only [what Twitter will and will not allow through its Rest API](https://dev.twitter.com/rest/public)
+
+
+
 
 ## Analyzing Networks
 
