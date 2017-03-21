@@ -86,7 +86,7 @@ This is, in broad strokes, everything that NodeXL (the central hub of this graph
 
 Under the NodeXL tab --> "Data" section --> "Import" dropdown menu, you will see a list of all the potential data sources.
 
-![NodeXL Import Options](/images/netpres05.PNG)
+![NodeXL Import Options](/images/netpres05.png)
 
 If your data has already been collected, you can import it into NodeXL as a Pajek, GraphML, or UCINET Full Matrix DL file. We're not going to get into that today, and that would ignore some of NodeXL's best functionality anyway.
 
@@ -99,22 +99,22 @@ Notice, from the bottom half of the "Import" dropdown, that data can also be tak
 
 Well, at least in theory. To import data from most of these sources you need to have NodeXL Pro installed. But NodeXL basic does allow you to import "From Twitter Search Network," meaning you can pull up tweets containing keywords or hashtags, and can control the parameters of that data cull. Like this: 
 
-![NodeXL Import from Twitter Search Network](/images/netpres06.PNG)
+![NodeXL Import from Twitter Search Network](/images/netpres06.png)
 
 This window gives us several options.
 * First is the search bar. It accepts hastag searches as well as plain search terms and can be augmented with standard search operator protocol. Here are some ways to complicate your search criteria:
 
-![NodeXL Twitter Advanced Search Operators](/images/netpres09.PNG)
+![NodeXL Twitter Advanced Search Operators](/images/netpres09.png)
 
 * Next you'll notice that you can import either a "Basic network" or a "Basic network plus friends (very slow!)." They aren't lying when they give speed suggestions, so keep that in mind. Here is the difference between those two searches in terms of graphical relationships:
 
-![NodeXL Basic and Friends Networks](/images/netpres10.PNG)
+![NodeXL Basic and Friends Networks](/images/netpres10.png)
 
 Though they take longer to generate, showing friendship networks can be very informative, and can facilitate the creation of more snugly clustered groupings (something we'll get to in the next section)
 
 * The next thing of note in this data importation dialogue box is that you have to have a twitter account, and that this account needs to give NodeXL certain permissions. NodeXL needs to use your twitter account as a kind of conduit to twitter's databases. This is part of the protocol twitter has instituted through its API (application programming interface) -- it is through twitter's API that NodeXL is able to extract the tweet metadata. If you have not given NodeXL these permissions, select this button, follow the prompts in your browser, then come back to NodeXL to enter the access code twitter provides.
 
-![NodeXL Twitter Authorization](/images/netpres08.PNG)
+![NodeXL Twitter Authorization](/images/netpres08.png)
 
 * Also, in the bottom right-hand corner of this dialogue box, you can select the number of tweets to extract (the more, the slower, seemingly logarithmically) and whether you would like to expand URLs in tweets (also slower).
 
