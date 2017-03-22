@@ -175,17 +175,17 @@ I can't go into the usefulness or mathematical bases of all of these metrics, bu
 
 ### General
 
-[NodeXL Discussion List](http://nodexl.codeplex.com/discussions)
-[Social Media Research Foundation Blog](http://www.smrfoundation.org/blog/)
-[Derek Hansen - _Analyzing Social Media Networks with NodeXL_](http://www.sciencedirect.com/science/book/9780123822291)
-[Ken Wakita - "Finding Community Structure in Mega-scale Social Networks"](https://arxiv.org/abs/cs/0702048)
-[Yun Fu - "Human-Centered Social Media Analytics"](http://www.springer.com/us/book/9783319054902)
+* [NodeXL Discussion List](http://nodexl.codeplex.com/discussions)
+* [Social Media Research Foundation Blog](http://www.smrfoundation.org/blog/)
+* [Derek Hansen - _Analyzing Social Media Networks with NodeXL_](http://www.sciencedirect.com/science/book/9780123822291)
+* [Ken Wakita - "Finding Community Structure in Mega-scale Social Networks"](https://arxiv.org/abs/cs/0702048)
+* [Yun Fu - "Human-Centered Social Media Analytics"](http://www.springer.com/us/book/9783319054902)
 
 ### Ethics
-[University of Minnesota - "IRB for Recruiting Research Subjects Using Social Media"](http://www.research.umn.edu/irb/guidance/documents/SocialMediaforRecruitment.pdf)
-[Cami Gearhart - "IRB Review of the Use of Social Media in Research"](http://www.quorumreview.com/wp-content/uploads/2012/12/IRB-Review-of-the-Use-of-Social-Media-in-Research_Gearhart_Quorum-Review_Monitor_2012_12_01.pdf)
-[Giuseppe Labianca - "Introduction to Social Network Analysis: IRB Considerations"](https://www.research.uky.edu/ori/ORIForms/SocialNetworkAnalysis-IRBConsiderations11-17-15.pdf)
-[Megan A. Morena - "Ethics of Social Media Research: Common Concerns and Practical Considerations"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3942703/)
-[Elizabeth A. Buchanan - "Social Media, Research, and Ethics: Challenges and Strategies"](http://oprs.usc.edu/files/2013/01/Social_Media_Research.pdf)
+* [University of Minnesota - "IRB for Recruiting Research Subjects Using Social Media"](http://www.research.umn.edu/irb/guidance/documents/SocialMediaforRecruitment.pdf)
+* [Cami Gearhart - "IRB Review of the Use of Social Media in Research"](http://www.quorumreview.com/wp-content/uploads/2012/12/IRB-Review-of-the-Use-of-Social-Media-in-Research_Gearhart_Quorum-Review_Monitor_2012_12_01.pdf)
+* [Giuseppe Labianca - "Introduction to Social Network Analysis: IRB Considerations"](https://www.research.uky.edu/ori/ORIForms/SocialNetworkAnalysis-IRBConsiderations11-17-15.pdf)
+* [Megan A. Morena - "Ethics of Social Media Research: Common Concerns and Practical Considerations"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3942703/)
+* [Elizabeth A. Buchanan - "Social Media, Research, and Ethics: Challenges and Strategies"](http://oprs.usc.edu/files/2013/01/Social_Media_Research.pdf)
 
 
