@@ -147,9 +147,38 @@ With this degree of detail in the metadata, there's little limit to what you can
 * click "Show Graph" in the top-left corner of the "Document Actions" pane
 * voila!
 
-Play around with this a litte bit. There's lots to be done. The default graphing algorithm is the Fructerman-Reingold. You can change this from the drop down menu to the 
-
+Play around with this a litte bit. There's lots to be done. The default graphing algorithm is the Fructerman-Reingold. You can change this from the drop down menu to the "Harel-Koren Fast Multiscale" or some shape-driven geometry. Try "Lay[ing] out [the graph] again" and see how the network reconstitutes itself with each iteration of the algorithm (usually in the direction of entropy, but sometimes fruitfully).
 
 ## Analyzing Networks
 
+The first step of analyzing networks is with your eyes. A good place to start with this is to use NodeXL's dynamic filters ("NodeXL" tab --> "Analysis" pane --> giant filter icon, says "dynamic filters" right underneath it
+
+![NodeXL Dynamic Filters](/images/netpres13.png)
+
+These filters allow you to selectively view the graph according to parameters of your choosing -- when the tweet was sent, the age of the relationship between users, the number of followers, other stuff. What was a messy jumble of cubist spaghetti-still-life can be narrowed according to your research priorities.
+
+The next analytic tool is grouping algorithms. Also in the analysis pane of the NodeXL tab, you'll see a dropdown menu for groups:
+
+![NodeXL Groups](/images/netpres14.png)
+
+As you can see, NodeXL allows you to rearrange your graph according to different parameters (motif, cluster, vertex attribute, connected component). These grouping algorithms befit different priorities, but I find the cluster algorithms best for highlighting nodal relationships inherent to your network. You can then tell the graph (in the "Document Actions" pane) to "Lay Out Again," and it will rearrange your nodes according to your grouping algorithm, centralizing the kind of relationships you're interested in, and casting those of a lower priority, or irrelevance, to the periphery of the graph.
+
+After you're done using your brain to analyze the graph, let the computer do its job. NodeXL has built in computational metrics commensurate with standard graph theoretic techniques.
+
+In the "NodeXL" tab --> "Analysis" pane --> "Graph Metrics" dropdown menu, you will see a list of measurements and their descriptions NodeXL can take of your graph.
+
+![NodeXL Graph Metrics List](/images/netpres11.png)
+
+I can't go into the usefulness or mathematical bases of all of these metrics, but the descriptions provided by NodeXL suffice for introductory purposes. With the nodes of 2,000 tweets (with NodeXL basic) or the 18,000 allowed by twitter, the topology of the graph surpasses the limits of human intuition, and these metrics become necessary and powerful ways to make sense of networks.
+
 ## Further Reading
+
+### General
+
+[NodeXL Discussion List](http://nodexl.codeplex.com/discussions)
+[Social Media Research Foundation Blog](http://www.smrfoundation.org/blog/)
+
+### Ethics
+[University of Minnesota IRB for Recruiting Research Subjects Using Social Media](http://www.research.umn.edu/irb/guidance/documents/SocialMediaforRecruitment.pdf)
+
+
